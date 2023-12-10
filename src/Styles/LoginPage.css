@@ -1,0 +1,90 @@
+.player-login {
+    background-color: #161d22;
+    height: calc(100vh - 64px);
+}
+
+.player-login-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 50px;
+    align-items: center;
+}
+
+.img-form {
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+}
+
+.player-login-image {
+    border-radius: 5px;
+}
+
+.img-form form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+
+}
+
+.img-form form input {
+    width: 100%;
+    font-size: 18px;
+    background-color: #161d22;
+    border: none;
+    color: white;
+    outline: none;
+    border-bottom: 1px solid red;
+}
+
+.img-form form button {
+    font-size: 18px;
+    padding-block: 4px;
+    background-color: #161d22;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    outline: none;
+    transition-delay: 0.3s;
+    transition: all 0.3s ease;
+}
+
+.img-form form button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+.player-login-image img {
+    width: 400px;
+}
+
+.register-here p {
+    color: white;
+    font-size: 18px;
+}
+
+.register-here p a {
+    padding-left: 10px;
+    color: rgb(109, 108, 108);
+    /* text-decoration: none; */
+}
+
+.alert-box {
+    background-color: rgb(247, 75, 75);
+    color: white;
+    padding: 6px;
+}

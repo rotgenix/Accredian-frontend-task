@@ -1,0 +1,95 @@
+.player-register {
+    background-color: #161d22;
+    height: calc(100vh - 72px);
+
+    position: relative;
+}
+
+
+
+.background-image {
+    background-image: url('../assets/background.jpg');
+
+    height: calc(100vh - 72px);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    filter: blur(2px);
+
+}
+
+
+.player-register-container {
+    width: 100vw;
+    height: calc(100vh - 70px);
+    /* max-width: 1200px; */
+    margin: 0 auto;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+}
+
+.player-register-container h3 {
+    color: white;
+    font-size: 32px;
+    border-bottom: 2px solid white;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container form input {
+    width: 100%;
+    font-size: 18px;
+    background-color: #161d22;
+    border: none;
+    color: white;
+    outline: none;
+    border-bottom: 1px solid red;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.form-container form button {
+    font-size: 18px;
+    padding-block: 8px;
+    background-color: #161d22;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    outline: none;
+    transition-delay: 0.3s;
+    transition: all 0.3s ease;
+}
+
+.form-container form button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.login-here p {
+    color: white;
+    font-size: 18px;
+    background-color: #161d22;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.login-here p a {
+    padding-left: 10px;
+    color: red;
+}
